@@ -13,11 +13,25 @@ repository? What value do you think it offers?
 
 The working directory contains all the files of the repo. The repo consists of
 all the files making up the project, plus the git metadata that allows tracking
-of commits. The staging area is a kind of like a separate area where we can
-place files that we want to include in a coming commit. We usually don't want
-to commit all the files in the working directory for each commit because we
-want to keep these commits atomic and logically small. Therefore the staging
-area allows us to select exactly which files from the working directory we want
-to commit in the next commit. The staging area is not a collection of files or
-is not a directory, nor does is store the version history of the files. It is
-merely a space where we can stage files to be commited.
+of commits. The repo basically contains all the commits. The staging area is a
+kind of like a separate area where we can place files that we want to include in 
+a coming commit. We usually don't wantto commit all the files in the working 
+directory for each commit because we want to keep these commits atomic and 
+logically small. Therefore the staging area allows us to select exactly which 
+files from the working directory we want to commit in the next commit. The 
+staging area is not a collection of files or is not a directory, nor does is 
+store the version history of the files. It is merely a space where we can 
+stage files to be commited.
+
+Staging area is a copy of the most recent commit, until changes are added to
+it. Working directory contains the changes that we have made to the files.
+
+3: How can you use the staging area to make sure you have one commit per
+logical change?
+
+Using the staging area you can "add" only the files that are required to invoke
+a logical change. These files can then be commited. You can use the staging
+area to explicitly select which files you want to commit for each commit. This
+way you can keep to the one commit per logical change regime.
+
+
