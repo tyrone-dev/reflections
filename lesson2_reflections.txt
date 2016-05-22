@@ -52,3 +52,13 @@ main branch later.
 Diagram allow you to see what commits lie on each branch as well as at which
 commit, relative to master, or other branches, a new branch was created. It
 allows you to see which commits are reachable from various branhes.
+
+6: What is the result of mergining two branches together? Why do we represent
+it in the diagram the way we do?
+
+Mergeing two branches together takes all the changes from one branch and pulls
+it into another branche (along with its changes). Therefore, all the commits
+from the two branches are now accessible. Merging itself creates another
+commit. It is indicated as a merge on the diagram to emphaize that the two
+branches and their individual commits are now accesible on a single path. It
+shows how cumulative changes on separate branches are now pulled together.
