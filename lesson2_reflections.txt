@@ -34,4 +34,21 @@ a logical change. These files can then be commited. You can use the staging
 area to explicitly select which files you want to commit for each commit. This
 way you can keep to the one commit per logical change regime.
 
+4: What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
 
+Situations - adding experimental features, implementing support for different
+languagues or platforms; all while still wanting a working version of the main
+code that can be worked on for bug fixes etc.
+
+Branches allow non linear commits. A branch, when created, creates a copy of
+the current commit and creates a separate path on which commits will be tracked
+in this branch. This way a new feature can be added without affecting the main
+working branch. If this feature works and is tested, it can be merged into the
+main branch later.
+
+5: How do the diagrams help you visualize the branch structure?
+
+Diagram allow you to see what commits lie on each branch as well as at which
+commit, relative to master, or other branches, a new branch was created. It
+allows you to see which commits are reachable from various branhes.
