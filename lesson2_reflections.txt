@@ -1,0 +1,23 @@
+1: What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repo, you are essentially enabling the repo's history to
+be tracked using Git Version Control. It adds the .git folder that contains
+meta data that allows the history of the repo to be tracked. It does not commit
+anything, when initializing.
+
+It needs to be done so that a directory containing code can be used as a git
+repo, with the history being able to be tracked.
+
+2: How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+The working directory contains all the files of the repo. The repo consists of
+all the files making up the project, plus the git metadata that allows tracking
+of commits. The staging area is a kind of like a separate area where we can
+place files that we want to include in a coming commit. We usually don't want
+to commit all the files in the working directory for each commit because we
+want to keep these commits atomic and logically small. Therefore the staging
+area allows us to select exactly which files from the working directory we want
+to commit in the next commit. The staging area is not a collection of files or
+is not a directory, nor does is store the version history of the files. It is
+merely a space where we can stage files to be commited.
