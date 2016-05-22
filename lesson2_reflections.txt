@@ -62,3 +62,12 @@ from the two branches are now accessible. Merging itself creates another
 commit. It is indicated as a merge on the diagram to emphaize that the two
 branches and their individual commits are now accesible on a single path. It
 shows how cumulative changes on separate branches are now pulled together.
+
+7: What are the pros and cons of Git's automatic merging vs. always doing
+merges manually?
+
+Pros: it highlights conflicts, if no conflicts it works effectively
+
+Cons: it is not human smart, might not know if two different functions are
+actually implementing the same feature, if there are conflicts it requries
+manual intervention.
