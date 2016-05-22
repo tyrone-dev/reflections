@@ -1,0 +1,64 @@
+1: Using diff to find bugs
+
+By comparing old version of file to new, modified version we can see exactly
+how our changes affected the code and see where code-breaking changes were made.
+
+2: How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+It would allow rolling back to a previous working version of the code in case
+any update breaks the code. It can allow bugs to be found. Can easily roll back
+to large checkpoints in the code and build from there as opposed to removing
+anything that isn't require.
+
+3: What do you think are the pros and con of manually choosing when to
+create a commit, like you do in Git, vs having automatically saved, like
+Google Docs does?
+
+Pros: you have absolute power over the size of the commits and can enforce the
+rule of one commit per logical change.
+
+Cons: You are required to save manually and commit manually. This is prone to
+human error.
+
+4: Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each file
+separately?
+
+Git is mainly used for the version control of code. Most software projects
+(larger ones) typically involve multiple, inter-related files. Sometimes a
+function might be defined in one file, but called in others. Chaning the
+function parameters, for example, will then require changes to multiple files.
+Therefore, having a single commit to invoke this single logical change makes
+more sense. Google Docs is primarily used for documents, that are usually
+standalone pieces of data.
+
+5:How can you use the commands git log and git diff to view the history of
+files?
+
+git log shows the entire history of the repo. It shows each and every commit,
+identified by a unique id. Using git log --stat shows each commit as well as
+the files modified in that commit. git diff can be used to compare two commits
+to get a detailed view of the changes that occured between commits.
+
+6: How might using version control make you more confident to make changes that
+could break something?
+
+Using version control, it is possible to implement new changes safely. Assuming
+that regular commits are made, there is likely to be a version of the code that
+is working. Therefore, should you commit a change that breaks something, you
+can always revert back to the last snapshot of the repo that was working
+correctly.
+
+7: Now that you have your workspace set up, what do you want to try using Git
+for?
+
+I would like to learn how to properly use Git for Version Control of larger
+software projects. I would like to be able to confidently create branches,
+merge branches, learn about forks, create ignore files, do things like cherry
+picking etc. I want to exapand my knowledge so that I can be more effective in
+developing and be more adventurous in trying new ideas in a safe environment. I
+also want to be able to realise the concept of atomic commits to make code
+chagnes usable, understandable and logical.
+
+8:
