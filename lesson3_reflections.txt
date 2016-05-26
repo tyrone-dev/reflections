@@ -46,3 +46,8 @@ way you can continue developing on your local branch, and then compare it to
 the remote branch and resolve conflicts without requiring access to the
 internet. It also allows you to compare the changes you have to the remote
 repo.
+
+5: How would you collaborate without using Git or GitHub?
+
+Simple answer: I wouldn't. This would require something like DropBox
+or a google drive account or even copying files between users. Oh No!
