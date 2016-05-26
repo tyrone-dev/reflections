@@ -51,3 +51,16 @@ repo.
 
 Simple answer: I wouldn't. This would require something like DropBox
 or a google drive account or even copying files between users. Oh No!
+
+6: When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have?
+
+When you want to work on the code without affecting master and while still
+mainintaining backups of your code. For example implementing new features,
+experimenting with new method etc. You don't want these to go into master until
+they are tried and tested, but you want it to be available for collaboration
+and review and backup.
+
+Making changes in master is beneficial if you are making quick and easy bug
+fixes. Because master is like the production branch - you always want it up to
+date and fully working and stable.
