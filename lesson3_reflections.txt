@@ -36,3 +36,13 @@ of a repo on GitHub but still on the GitHub Servers. The forked repo is linked
 to or references the repo from which it was forked. Forking is useful if you
 want to contribute to a project or make your own changes without affecting the
 originator's repo or if you do not have permissions to do so.
+
+4: What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+With un update version of the remote stored locally, you can access all the
+commits that may have come after your last pull, even if you are offline. This
+way you can continue developing on your local branch, and then compare it to
+the remote branch and resolve conflicts without requiring access to the
+internet. It also allows you to compare the changes you have to the remote
+repo.
