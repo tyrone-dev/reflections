@@ -5,3 +5,12 @@ You would use a remote repo when:
   - you are working on your code from multiple computers
   - you want to share a project you are working on
   - you want an online backup of your code
+
+2: Why might you want to always pull changes manually rather than having Git
+automatically stay up to date with your remote repository?
+
+There may be changes/commits in the remote repo that add new features or change
+the code drastically. You may have been working on an older version for a
+while. Pulling these automatically runs the risk of you losing track of your
+code or even having your changes overwritten. You might also not want the
+lastest commits.
