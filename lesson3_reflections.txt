@@ -14,3 +14,25 @@ the code drastically. You may have been working on an older version for a
 while. Pulling these automatically runs the risk of you losing track of your
 code or even having your changes overwritten. You might also not want the
 lastest commits.
+
+3: Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+Clones - when you clone a remote, or local, repo to a local drive. Cloning
+clones the remote reference that is present or associated with the remote repo.
+Clone is used when you want to get all the contents of a repo from another
+location so that you can work on it.
+
+Branch - creates a new label for a commit history and allows a non-linear
+commit history. When creating a branch the new branch contains all the commits
+from the branch from which it was created but all new commits will be unique to
+the new branch only. Branching is used when you want to add new features,
+experiment etc without affecting the main branch that others might be using or
+rely on. You can also version control these new commits with no impact on the
+other branches.
+
+Fork - creates a remote copy of an existing remote repo. This creates the copy
+of a repo on GitHub but still on the GitHub Servers. The forked repo is linked
+to or references the repo from which it was forked. Forking is useful if you
+want to contribute to a project or make your own changes without affecting the
+originator's repo or if you do not have permissions to do so.
